@@ -15,3 +15,74 @@
   font-weight: 400;
   font-style: normal;
 }
+/* Browser Resting Here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Utility Classes Start Here */
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+:root {
+  --white-color: #fff;
+  --light-color: rgba(255, 255, 255, 0.5);
+  --secondary-color: #e6533c;
+}
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+/* Utility Classes End Here */
+/* Header Section Styling Start Here */
+#header {
+  height: 715px;
+  background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 1) 100%);
+  overflow: hidden;
+}
+/* Navbar Styling Start Here */
+#nav {
+  margin-top: 57px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav .brand {
+  color: var(--secondary-color);
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 120%;
+}
+.nav-items {
+  display: flex;
+}
+.nav-item {
+  margin-right: 47px;
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+.nav-link {
+  color: var(--white-color);
+  font-size: 18px;
+  line-height: 120%;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+.active {
+  background: var(--secondary-color);
+}
+.nav-link:hover {
+  background: var(--secondary-color);
+}
+/* Navbar Styling End Here */
+/* Header Section Styling End Here */
