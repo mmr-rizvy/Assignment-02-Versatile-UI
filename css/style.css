@@ -33,6 +33,7 @@ ul {
   --white-color: #fff;
   --light-color: rgba(255, 255, 255, 0.5);
   --secondary-color: #e6533c;
+  --bg-primary: #111;
 }
 .container {
   max-width: 1060px;
@@ -55,6 +56,26 @@ ul {
 .btn-border {
   border: 1px solid var(--white-color);
   background-color: transparent;
+}
+.text-center {
+  text-align: center;
+}
+.section-title {
+  color: var(--white-color);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 14px;
+}
+.description {
+  color: var(--light-color);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.fixed-width-description {
+  width: 671px;
+  margin: 0 auto;
 }
 /* Utility Classes End Here */
 /* Header Section Styling Start Here */
@@ -190,3 +211,40 @@ ul {
 }
 /* Showcase Section Styling End Here */
 /* Header Section Styling End Here */
+/* Main Section Styling Start Here */
+/* Habits Section Start Here */
+#habits {
+  background-color: var(--bg-primary);
+  padding: 100px 0px;
+}
+.habits-container {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+.habit-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.habit-card {
+  width: calc(25% - 40px);
+}
+.card-habit-img-container {
+  width: 100%;
+}
+.habit-card-img {
+  width: 100%;
+  border-radius: 50%;
+}
+.habit-card-title {
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  margin: 30px 0px 6px;
+}
+.habit-card-description {
+}
+/* Habits Section End Here */
+/* Main Section Styling End Here */
