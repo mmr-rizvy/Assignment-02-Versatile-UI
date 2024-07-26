@@ -33,7 +33,8 @@ ul {
   --white-color: #fff;
   --light-color: rgba(255, 255, 255, 0.5);
   --secondary-color: #e6533c;
-  --bg-primary: #111;
+  --bg-primary: #000;
+  --bg-secondary: #222;
 }
 .container {
   max-width: 1060px;
@@ -246,5 +247,28 @@ ul {
 }
 .habit-card-description {
 }
+/* Run Part Styling Start Here */
+.run-container {
+  margin-top: 100px;
+  padding: 30px 32px 30px 54px;
+  background-color: var(--bg-secondary);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 18px;
+}
+.run-text {
+  width: 40%;
+}
+.run-desc {
+  margin-bottom: 32px;
+}
+.run-img {
+  width: 35%;
+}
+.run-img img {
+  width: 100%;
+  border-radius: 18px;
+}
+/* Run Part Styling End Here */
 /* Habits Section End Here */
 /* Main Section Styling End Here */
