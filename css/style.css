@@ -36,6 +36,12 @@ ul {
   --bg-primary: #000;
   --bg-secondary: #222;
 }
+.bg-primary {
+  background-color: var(--bg-primary);
+}
+.bg-secondary {
+  background-color: var(--bg-secondary);
+}
 .container {
   max-width: 1060px;
   margin: 0 auto;
@@ -76,7 +82,6 @@ ul {
 }
 .fixed-width-description {
   width: 671px;
-  margin: 0 auto;
 }
 /* Utility Classes End Here */
 /* Header Section Styling Start Here */
@@ -215,7 +220,6 @@ ul {
 /* Main Section Styling Start Here */
 /* Habits Section Start Here */
 #habits {
-  background-color: var(--bg-primary);
   padding: 100px 0px;
 }
 .habits-container {
@@ -226,6 +230,9 @@ ul {
 .habit-card-container {
   display: flex;
   justify-content: space-around;
+}
+.habit-description {
+  margin: 0 auto;
 }
 .habit-card {
   width: calc(25% - 40px);
@@ -264,11 +271,148 @@ ul {
 }
 .run-img {
   width: 35%;
+  overflow: hidden;
+  border-radius: 18px;
 }
 .run-img img {
   width: 100%;
   border-radius: 18px;
+  transform: scale(150%);
 }
 /* Run Part Styling End Here */
 /* Habits Section End Here */
+/* Trainings Section Styling Start Here */
+#trainings {
+  overflow: hidden;
+}
+.training-img-box {
+  margin: 58px 0px 88px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 220px 220px;
+}
+.training-img-container-1 {
+  background: url(../images/exercise1.jpg) no-repeat center center/cover;
+  grid-column: 1/4;
+  position: relative;
+}
+.training-img-container-2 {
+  background: url(../images/exercise2.png) no-repeat center center/cover;
+  grid-column: 4/10;
+  position: relative;
+}
+.training-img-container-3 {
+  background: url(../images/exercise3.png) no-repeat center center/cover;
+  grid-column: 10/13;
+  position: relative;
+}
+.training-img-container-4 {
+  background: url(../images/exercise4.png) no-repeat center center/cover;
+  grid-column: 1/6;
+  position: relative;
+}
+.training-img-container-5 {
+  background: url(../images/exercise5.jpg) no-repeat center center/cover;
+  grid-column: 6/9;
+  position: relative;
+}
+.training-img-container-6 {
+  background: url(../images/exercise6.jpg) no-repeat center center/cover;
+  grid-column: 9/13;
+  position: relative;
+}
+.training-img-container-1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #06ffd2;
+  opacity: 50%;
+}
+.training-img-container-2::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #ff0000;
+  opacity: 30%;
+}
+.training-img-container-3::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+  opacity: 50%;
+}
+.training-img-container-4::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+  opacity: 50%;
+}
+.training-img-container-5::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #42ff00;
+  opacity: 30%;
+}
+.training-img-container-6::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #0047ff;
+  opacity: 30%;
+}
+.training-img-caption {
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 1;
+  position: absolute;
+}
+.training-img-container-1 > .training-img-caption {
+  left: 20px;
+  bottom: 25px;
+}
+.training-img-container-2 > .training-img-caption {
+  left: 31px;
+  top: 25px;
+}
+.training-img-container-3 > .training-img-caption {
+  left: 20px;
+  bottom: 25px;
+}
+.training-img-container-4 > .training-img-caption {
+  right: 20px;
+  top: 25px;
+}
+.training-img-container-5 > .training-img-caption,
+.training-img-container-6 > .training-img-caption {
+  left: 25px;
+  bottom: 25px;
+}
+.bmi-text {
+  margin: 0px auto 88px;
+}
+
+/* Trainings Section Styling End Here */
+
 /* Main Section Styling End Here */
