@@ -566,6 +566,52 @@ ul {
   font-size: 14px;
   line-height: 120%;
 }
-
 /* Our Team Section Styling End Here */
 /* Main Section Styling End Here */
+/* Footer Section Styling Start Here */
+#footer {
+  padding: 88px 0px 0px;
+}
+.footer-info-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer-brand-info {
+  width: 35%;
+}
+.footer-brands {
+  margin-bottom: 20px;
+}
+.footer-brands a {
+  color: #e6533c;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 120%;
+}
+.footer-other-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links-title {
+  color: var(--white-color);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+.footer-links-container ul li {
+  margin-bottom: 20px;
+}
+.footer-links-container ul li a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+  line-height: 120%;
+}
+.footer-copyright > .container > .description {
+  padding: 35px 0px;
+}
+/* Footer Section Styling End Here */
