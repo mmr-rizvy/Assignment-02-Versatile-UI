@@ -412,7 +412,79 @@ ul {
 .bmi-text {
   margin: 0px auto 88px;
 }
-
 /* Trainings Section Styling End Here */
-
+/* BMI Calculator Section Start Here */
+#bmi-calculator {
+  padding: 50px 0px;
+}
+.bmi-calculator-container {
+  display: flex;
+  justify-content: space-between;
+}
+.calculator-chart {
+  width: 35%;
+}
+.calculate-bmi {
+  width: 55%;
+}
+.calculator-chart-title,
+.calculate-bmi-title {
+  color: var(--white-color);
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+}
+.calculate-bmi-title {
+  margin-bottom: 14px;
+}
+.calculator-chart table {
+  margin-top: 50px;
+}
+.calculator-chart table,
+.calculator-chart table th,
+.calculator-chart table tr,
+.calculator-chart table tr td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  padding: 16px 20px;
+}
+.calculator-chart table th {
+  color: var(--white-color);
+  font-weight: 500;
+  line-height: 120%;
+  text-align: start;
+}
+.calculator-chart table tr td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 120%;
+}
+.calculate-bmi-input-container {
+  margin: 34px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 12px;
+}
+.form-group {
+  width: calc(50% - 10px);
+}
+.form-group:last-child {
+  width: 100%;
+}
+.form-group input,
+.form-group select {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 22px;
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+.form-group > select > option {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+}
+/* BMI Calculator Section End Here */
 /* Main Section Styling End Here */
