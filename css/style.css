@@ -86,7 +86,6 @@ ul {
 /* Utility Classes End Here */
 /* Header Section Styling Start Here */
 #header {
-  height: 715px;
   background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.9) 500%);
   overflow: hidden;
 }
@@ -131,17 +130,23 @@ ul {
 /* Navbar Styling End Here */
 /* Showcase Section Styling Start Here */
 .showcase-container {
-  background: url(../images/Images\ 2.png) no-repeat bottom right;
-  background-size: contain;
   display: flex;
   justify-content: space-between;
   margin-top: 32px;
-  height: 580px;
-  position: relative;
 }
 .showcase-text,
 .showcase-info {
   width: 50%;
+}
+.showcase-text {
+  padding-bottom: 66px;
+}
+.showcase-info {
+  position: relative;
+}
+.showcase-info img {
+  position: absolute;
+  right: 0;
 }
 .showcase-text {
   margin-top: 64px;
@@ -200,7 +205,7 @@ ul {
   gap: 12px;
   width: 210px;
   bottom: 60px;
-  left: 55%;
+  left: 10%;
 }
 .info-circle {
   height: 40px;
