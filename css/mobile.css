@@ -1,0 +1,162 @@
+.btn {
+  padding: 12px 20px;
+}
+.fixed-width-description {
+  width: 100%;
+}
+.section-title {
+  font-size: 32px;
+  line-height: 120%;
+}
+#header {
+  padding: 0px 30px;
+}
+.nav-items {
+  display: none;
+}
+.fa-bars {
+  display: block;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+}
+.showcase-text,
+.showcase-info {
+  width: 100%;
+}
+.showcase-title {
+  font-size: 45px;
+}
+
+.showcase-info {
+  height: 580px;
+}
+.showcase-info img {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.info-box1 {
+  top: 60px;
+  right: 3%;
+}
+.info-box1,
+.info-box2 {
+  padding: 12px 16px;
+}
+.info-box1 h2 {
+  font-size: 30.241px;
+  line-height: 30.241px;
+  letter-spacing: 0.756px;
+}
+.info-box1 p,
+.info-box2 p {
+  font-size: 9.828px;
+  line-height: 15.12px;
+  letter-spacing: 0.756px;
+}
+.info-box2 {
+  width: auto;
+  left: 5%;
+  bottom: 275px;
+  align-items: center;
+}
+.info-box2-content h3 {
+  font-size: 18.144px;
+  line-height: 18.144px;
+  letter-spacing: 0.227px;
+}
+.info-circle {
+  display: none;
+}
+.fa-circle-play {
+  display: block;
+}
+#habits {
+  padding: 100px 30px;
+}
+.habit-card-container {
+  padding: 0px 40px;
+  gap: 40px;
+  flex-direction: column;
+}
+.habit-card {
+  width: 100%;
+}
+.run-container {
+  align-items: start;
+  flex-direction: column;
+  padding: 33px;
+  gap: 31px;
+}
+.run-text {
+  width: 100%;
+}
+.run-img {
+  width: 100%;
+  height: 100%;
+}
+.trainings-container {
+  padding: 0px 30px;
+}
+.training-img-container-3,
+.training-img-container-6 {
+  display: none;
+}
+.training-img-container-1 {
+  grid-column: 1/7;
+}
+.training-img-container-2 {
+  grid-column: 7/13;
+}
+.training-img-container-4 {
+  grid-column: 1/6;
+}
+.training-img-container-5 {
+  grid-column: 6/13;
+}
+#bmi-calculator {
+  padding: 50px 30px;
+}
+.bmi-calculator-container {
+  flex-direction: column;
+}
+.calculator-chart {
+  width: 100%;
+  margin-bottom: 62px;
+}
+.calculate-bmi {
+  width: 100%;
+}
+.team-img {
+  grid-template-columns: 1fr;
+}
+.team-img-container-1,
+.team-img-container-4 {
+  display: none;
+}
+.team-img-container-5 {
+  grid-row: 2;
+}
+#membership {
+  padding: 0px 30px 88px;
+}
+.membership-card-container {
+  grid-template-columns: 1fr;
+}
+#footer {
+  padding: 88px 30px 0px;
+}
+.footer-info-container {
+  flex-direction: column;
+}
+.footer-brand-info {
+  width: 90%;
+  margin-bottom: 102px;
+}
+.footer-other-links {
+  width: 100%;
+  flex-direction: column;
+}
