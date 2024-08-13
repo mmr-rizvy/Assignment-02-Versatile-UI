@@ -1,5 +1,12 @@
 .btn {
-  padding: 12px 20px;
+  padding: 8px 16px;
+}
+.btn {
+  font-size: 16px;
+}
+.sm-btn-lg {
+  width: 100%;
+  padding: 16px 0px;
 }
 .fixed-width-description {
   width: 100%;
@@ -14,8 +21,9 @@
 .nav-items {
   display: none;
 }
-.fa-bars {
+#menu-icon {
   display: block;
+  cursor: pointer;
 }
 
 .showcase-container {
@@ -60,7 +68,7 @@
 .info-box2 {
   width: auto;
   left: 5%;
-  bottom: 275px;
+  bottom: 250px;
   align-items: center;
 }
 .info-box2-content h3 {
@@ -71,11 +79,12 @@
 .info-circle {
   display: none;
 }
-.fa-circle-play {
+#video-play-icon {
   display: block;
+  cursor: pointer;
 }
 #habits {
-  padding: 100px 30px;
+  padding: 0px 30px;
 }
 .habit-card-container {
   padding: 0px 40px;
@@ -99,8 +108,9 @@
   height: 100%;
 }
 .trainings-container {
-  padding: 0px 30px;
+  padding: 66px 30px 0px;
 }
+
 .training-img-container-3,
 .training-img-container-6 {
   display: none;
@@ -117,6 +127,12 @@
 .training-img-container-5 {
   grid-column: 6/13;
 }
+.training-img-box {
+  margin: 58px 0px 21px;
+}
+.bmi-text {
+  margin: 0px auto 32px;
+}
 #bmi-calculator {
   padding: 50px 30px;
 }
@@ -129,6 +145,9 @@
 }
 .calculate-bmi {
   width: 100%;
+}
+#team {
+  padding: 88px 20px;
 }
 .team-img {
   grid-template-columns: 1fr;

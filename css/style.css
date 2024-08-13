@@ -105,13 +105,16 @@ ul {
   font-weight: 800;
   line-height: 120%;
 }
-.fa-bars {
+#menu-icon {
   display: none;
   color: var(--white-color);
   font-size: 28px;
 }
 .nav-items {
   display: flex;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 0px;
+  border-radius: 20px;
 }
 .nav-item {
   margin-right: 47px;
@@ -212,7 +215,7 @@ ul {
   bottom: 60px;
   left: 10%;
 }
-.fa-circle-play {
+#video-play-icon {
   font-size: 24px;
   color: #e6533c;
   display: none;
